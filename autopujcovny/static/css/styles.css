@@ -1,5 +1,39 @@
+body {
+    background-color: #111;
+}
+
 header {
-    background-image: url('../img/book-logo.png');
+    background-color: #040404;
+    background-image: url('../img/car-banner.jpg');
     background-repeat: no-repeat;
-    background-position: left 30px center;
+    background-position: right top;
+}
+
+.auto-list img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.detail h3 {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    background-color: #666;
+    border-radius: 10px;
+}
+
+h2 {
+    border-radius: 10px;
+}
+
+.bg-dark  {
+    background-color: #000 !important;
+}
+
+.table-dark {
+    background-color: #111 !important;
+}
+
+.list-group-item {
+    background-color: #222;
 }
